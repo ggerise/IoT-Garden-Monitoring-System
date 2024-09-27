@@ -1,0 +1,63 @@
+[
+    {
+        "id": "125d1072.694a2",
+        "type": "ui_chart",
+        "z": "5e04b9dd.81c658",
+        "name": "Temperature",
+        "group": "9ff86fa2b3b8e56c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1710,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ff86fa2b3b8e56c",
+        "type": "ui_group",
+        "name": "temp",
+        "tab": "edd4b00bce587aad",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "edd4b00bce587aad",
+        "type": "ui_tab",
+        "name": "test1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
